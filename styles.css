@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background-image: url(/assets/background.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: #FFFBFA;
+    box-shadow: 5px 5px 15px #888888;
+    width: 85%;
+}
+
+
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+button {
+    width: 70%;
+    height: 40px;
+    background-color: #012C80;
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+#button {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 20px;
+    justify-content: space-around;
+
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    height: 200px;
+    width: 85%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#direitos{
+   text-decoration: none;
+    
+    color: #012C80 ; 
+}
+
+h5 {
+    color: #012C80 ;
+}
